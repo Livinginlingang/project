@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+html, body {
+    height: 100%;
+}
+.header{height:100px;box-shadow: 0px 4px 37px 0px rgba(0,0,0,0.1); }
+.logo{width:50px;height: 50px;border:1ox solid #111;padding-top: 25px;padding-left: 25px;float: left;}
+.title{font-family: 'Unica One', serif;font-size: 28px;line-height: 100px;vertical-align: top;float: left;} /*Lobster*/
+.nav li{list-style: none;display: inline-block;width: 16%;text-align: center;font-size: 18px}
+.nav{float: right;margin-right: 30px;width: 60%;height: 100px;line-height: 100px;}
+.navBar a{text-decoration: none;color:#111; display: inline-block;height: 100px;width: 100%;}
+.navBar a:hover{background-color: #339be4;color:#fff}
+.current a{background-color: #339be4;color:#fff}
+/* banner部分 */
+.lunbo{overflow: hidden;}
+.copyright{height: 15px;font-size: 12px;text-align: center;}
