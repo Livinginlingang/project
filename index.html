@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Living in Lingang</title>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<script src="js/setHome.js"></script>
+	<script src="js/myfocus-2.0.1.min.js"></script>
+	<script src="js/mf-pattern/mF_YSlider.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/mf-pattern/mF_YSlider.css">
+	<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+	<div class="header">
+		<img src="image/living.png" class="logo" />
+		<span class="title"><i style="color:#ec4d3b ">In</i> <i style="color: #637bf7">Lingang</i></span>
+		<ul class="nav">
+			<li class="navBar current"><a href="">Home</a></li><li class="navBar"><a href="">About LG</a></li><li class="navBar"><a href="">Living in LG</a></li><li class="navBar"><a href="">Contact List</a></li><li class="navBar"><a href="">Development</a></li><li class="navBar"><a href="html/about us.html">About us</a></li>
+		</ul>
+	</div>
+	<div class="lunbo" id="lunbo">
+		<div class="loading">
+			<img src="image/loading.gif" alt="">
+		</div>
+		<div class="pic">
+			<ul>
+			  <li><img src="image/timg (2).jpg" alt=""></li>
+				<li><img src="image/1995567849.jpg" alt=""></li>
+				<li><img src="image/970190771.jpg" alt=""></li>
+				<li><img src="image/timg (3).jpg" alt=""></li>
+				<li><img src="image/1674463491.jpg" alt=""></li>
+			</ul>			
+		</div>
+	</div>
+	<footer>
+		<p class="copyright">Copyright &copy; 2017 Phoebe in SHOU &amp; UTAS</p>
+	</footer>
+	<script>
+		var lunbo=document.getElementById('lunbo');
+		var images = lunbo.getElementsByTagName('img');
+		var copyright=document.getElementById('copyright');
+		lunbo.style.height=(document.body.clientHeight-130)+'px';
+		for(i=1;i<6;i++){
+			images[i].style.height=(document.body.clientHeight-130)+'px';
+			images[i].style.width=document.body.clientWidth+'px';
+		}
+		myFocus.set({
+			id:'lunbo'
+		})
+	</script>
+</body>
+</html>
