@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>living in lingang</title>
+	<link rel="stylesheet" href="../css/living.css">
+</head>
+<body>
+	<div class="header">
+		<img src="../image/living.png" class="logo" />
+		<img src="../image/TEXT.png" alt="" class="text">
+		<span class="saying">living in lingang</span>
+		<ul class="nav">
+			<li class="navBar"><a href="../index.html">Home</a></li><li class="navBar"><a href="about lingang.html">About LG</a></li><li class="navBar current"><a href="living.html">Living in LG</a></li><li class="navBar"><a href="contact.html">Contact List</a></li><li class="navBar"><a href="development.html">Development</a></li><li class="navBar"><a href="about us.html">About us</a></li>
+		</ul>
+	</div>
+		<div class="main" id="main">
+					<div id="intro">
+			<div class="left">
+				<ul class="toolkit" id="toolkit">
+					<a href="#infrastructure"><li><img src="../image/infrastructure.png" alt=""></li></a>
+					<a href="#Education"><li><img src="../image/book.png" alt=""></li></a>
+					<a href="#Transportation"><li><img src="../image/transportation.png" alt=""></li></a>
+					<a href="#Entertainment"><li><img src="../image/entertainment.png" alt=""></li></a>
+					<a href="#Housing"><li><img src="../image/house.png" alt=""></li></a>
+					<a href="#Business"><li><img src="../image/work.png" alt=""></li></a>
+				</ul>
+				<ul class="comment" id="comment">
+					<li>Infrastructure</li>
+					<li>Education</li>
+					<li>Transportation</li>
+					<li>Entertainment</li>
+					<li>Housing</li>
+					<li>Business</li>
+				</ul>
+			</div>
+			<div class="right">
+				<div id="infrastructure">
+						<div class="content-title">Infrastructure<span><img src="../image/down.png" alt="" style="width: 20px;height: 12px;vertical-align: middle;float: right;margin-right: 30px;    margin-top: 9px;"></span></div>
+						<p class="content"><img style="width: 30%;height: 100px;float: left;margin-right: 10px;">
+</p>
+					</div>
+					<div id="Education">
+						<div class="content-title">Education<span><img src="../image/down.png" alt="" style="width: 20px;height: 12px;vertical-align: middle;float: right;margin-right: 30px;    margin-top: 9px;"></span></div>
+						<p class="content"><img style="width: 30%;height: 100px;float: right;margin-right: 10px;">
+</p>
+					</div>
+					<div id="Transportation">
+						<div class="content-title">Transportation<span><img src="../image/down.png" alt="" style="width: 20px;height: 12px;vertical-align: middle;float: right;margin-right: 30px;    margin-top: 9px;"></span></div>
+						<p class="content"><img style="width: 30%;height: 100px;float: left;margin-right: 10px;">
+</p>
+					</div>
+					<div id="Entertainment">
+						<div class="content-title">Entertainment<span><img src="../image/down.png" alt="" style="width: 20px;height: 12px;vertical-align: middle;float: right;margin-right: 30px;    margin-top: 9px;"></span></div>
+						<p class="content"><img style="width: 30%;height: 100px;float: right;margin-right: 10px;">
+</p>
+					</div>
+					<div id="Housing">
+						<div class="content-title">Housing<span><img src="../image/down.png" alt="" style="width: 20px;height: 12px;vertical-align: middle;float: right;margin-right: 30px;    margin-top: 9px;"></span></div>
+						<p class="content"><img style="width: 30%;height: 100px;float: left;margin-right: 10px;">
+</p>
+					</div>
+					<div id="Business">
+						<div class="content-title">Business<span><img src="../image/down.png" alt="" style="width: 20px;height: 12px;vertical-align: middle;float: right;margin-right: 30px;    margin-top: 9px;"></span></div>
+						<p class="content"><img style="width: 30%;height: 100px;float: right;margin-right: 10px;">
+</p>
+					</div>
+			</div>
+		</div>
+		</div>
+	<footer>
+			<p class="copyright">Copyright &copy; 2017 Phoebe in SHOU &amp; UTAS</p>
+		</footer>
+		<script>
+
+            var toolkit=document.getElementById('toolkit');
+            var comment=document.getElementById('comment');
+            var element=toolkit.getElementsByTagName('a')
+            var hover=comment.getElementsByTagName('li')
+
+            for(i=0;i<6;i++){
+            	               	(function(i){
+               element[i].onmouseover=function(){
+               	hover[i].style.display="block";
+               }
+               })(i);
+            }
+
+             for(i=0;i<6;i++){
+            	               	(function(i){
+               element[i].onmouseout=function(){
+               	hover[i].style.display="none";
+               }
+               })(i);
+            }
+		</script>
+</body>
+</html>
