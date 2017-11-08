@@ -3,23 +3,26 @@ body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{
 html, body {
     height: 100%;
 }
-.header{height:100px;box-shadow: 0px 4px 37px 0px rgba(0,0,0,0.1); }
-.logo{width:50px;height: 50px;border:1ox solid #111;padding-top: 25px;padding-left: 25px;float: left;}
+body{background-color: #103e94}
+.header{height:100px;box-shadow: 0px 4px 37px 0px rgba(0,0,0,0.1);background:#103e94; position: relative;overflow: hidden;}
+.logo{width:50px;height: 50px;padding-top: 10px;padding-left: 70px;float: left;}
 .title{font-family: 'Unica One', serif;font-size: 28px;line-height: 100px;vertical-align: top;float: left;} /*Lobster*/
 .nav li{list-style: none;display: inline-block;width: 16%;text-align: center;font-size: 18px}
 .nav{float: right;margin-right: 30px;width: 60%;height: 100px;line-height: 100px;}
-.navBar a{text-decoration: none;color:#111; display: inline-block;height: 100px;width: 100%;}
-.navBar a:hover{background-color: #339be4;color:#fff}
-.current a{background-color: #339be4;color:#fff}
-footer{text-align: center;overflow: auto;}
+.navBar a{text-decoration: none;color:#fff; display: inline-block;height: 100px;width: 100%;}
+.navBar a:hover{color:#ffeb3b;transform: scale(1.1);transition: all 0.3s ease-in}
+.current a{background-color: #3F51B5;color:#fff}
+.sort{height: 12px}
+.text{width: 70px;height: 40px;margin:15px 0px 10px 10px;}
+.saying{position: absolute;left: 70px;bottom: 10px;color:#fff;font-family: "Lucida Calligraphy";font-size: 16px}
 /*main*/
 .main{background:#fafafa;}
 #intro{width: 80%;margin:0 auto;padding-top: 30px;}
-.team{width:60%;border:3px solid #339be4;height:200px;margin:0px auto 10px auto;}
-.who{font-weight: 700;color:#339be4;font-family: 'Unica One';font-size: 24px;padding: 20px}
+.team{width:60%;border:3px solid #103e94;height:200px;margin:0px auto 10px auto;}
+.who{font-weight: 700;color:#103e94;font-family: 'Unica One';font-size: 24px;padding: 20px}
 .copyright{height: 30px;font-size: 12px;text-align: center;line-height: 30px}
 .team_intro{padding:10px;}
 .members{width:80%;margin:0 auto;height: 730px}
 .member{position:relative;width: 30%;height: 300px;float: left;margin-left: 25px;margin-top:50px;}
 .people{background:#fff;width:100%;height:300px;box-shadow: 0px 4px 37px 0px rgba(0,0,0,0.1);}
-.photo{position: absolute;width: 70px;height: 70px;border:2px solid #339be4;border-radius: 50%;left: 35%;top:-10%;background-color: #fff}
+.photo{position: absolute;width: 70px;height: 70px;border:2px solid #103e94;border-radius: 50%;left: 35%;top:-10%;background-color: #fff}
