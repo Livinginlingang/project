@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+html, body {
+    height: 100%;
+}
+body{}
+.header{height:100px;box-shadow: 0px 4px 37px 0px rgba(0,0,0,0.1);background:#103e94; position: relative;overflow: hidden;}
+.logo{width:50px;height: 50px;padding-top: 10px;padding-left: 70px;float: left;}
+.title{font-family: 'Unica One', serif;font-size: 28px;line-height: 100px;vertical-align: top;float: left;} /*Lobster*/
+.nav li{list-style: none;display: inline-block;width: 16%;text-align: center;font-size: 18px}
+.nav{float: right;margin-right: 30px;width: 60%;height: 100px;line-height: 100px;}
+.navBar a{text-decoration: none;color:#fff; display: inline-block;height: 100px;width: 100%;}
+.navBar a:hover{color:#ffeb3b;transform: scale(1.1);transition: all 0.3s ease-in}
+.current a{background-color: #3F51B5;color:#fff}
+.sort{height: 12px}
+.text{width: 70px;height: 40px;margin:15px 0px 10px 10px;}
+.saying{position: absolute;left: 70px;bottom: 10px;color:#fff;font-family: "Lucida Calligraphy";font-size: 16px}
+.main{background:#fafafa;}
+#intro{width: 80%;margin:0 auto;padding-top: 30px;overflow: auto;}
+.left{float: left;width: 20%}
+.right{float: right;width: 78%}
+.channeltitle{padding-top: 0px;background: #EEE;    margin-bottom: 20px;}
+.nav-side ul li {
+    list-style: none;
+}
+.channeltitle li {
+    position: relative;
+    z-index: 30;
+}
+.nav-side ul.channeltitle li a {
+    display: block;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 16px 0 16px 40px;
+    letter-spacing: 1px;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #e3e3e3;
+    background: url(../image/bgs.png) no-repeat scroll 20px -146px transparent;
+    text-decoration: none;
+    color:#0E419C;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+.nav-side ul.channeltitle li a.current {
+    background-position: 20px -28px;
+}
+.nav-side ul.channeltitle li a:hover{
+	color:#ffeb3b;
+}
+.nav-side ul.channeltitle li .img {
+    margin-left: -50px;
+    margin-top: -10px;
+    height: 50px;
+    width: 153px;
+    vertical-align: middle;
+    background-color: #0e419c;
+    text-align: right;
+    color:#ffeb3b;
+    font-family: "Lucida Calligraphy";
+        line-height: 50px;
+        padding-right: 10px
+}
+.gps{width: 60%;height: 300px;border:3px solid #103e94;margin-right: 10px;float: left}
+.history_intro{
+	line-height: 35px;
+    text-indent: 2em;
+    margin-bottom: 20px
+}
+.content-title{height: 30px;width: 97%;color:#fff;background-color:#103e94;line-height: 30px;padding-left: 10px}
+.content{padding-top: 20px;margin-bottom: 20px;line-height: 35px}
+.content img{border:2px solid #103e94;}
+footer{text-align: center;color: #111}
