@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+html, body {
+    height: 100%;
+}
+body{position: relative;}
+.header{height:100px;box-shadow: 0px 4px 37px 0px rgba(0,0,0,0.1);background:#103e94; position: relative;overflow: hidden;}
+.logo{width:50px;height: 50px;padding-top: 10px;padding-left: 70px;float: left;}
+.title{font-family: 'Unica One', serif;font-size: 28px;line-height: 100px;vertical-align: top;float: left;} /*Lobster*/
+.nav li{list-style: none;display: inline-block;width: 16%;text-align: center;font-size: 18px}
+.nav{float: right;margin-right: 30px;width: 60%;height: 100px;line-height: 100px;}
+.navBar a{text-decoration: none;color:#fff; display: inline-block;height: 100px;width: 100%;}
+.navBar a:hover{color:#ffeb3b;transform: scale(1.1);transition: all 0.3s ease-in}
+.current a{background-color: #3F51B5;color:#fff}
+.sort{height: 12px}
+.text{width: 70px;height: 40px;margin:15px 0px 10px 10px;}
+.saying{position: absolute;left: 70px;bottom: 10px;color:#fff;font-family: "Lucida Calligraphy";font-size: 16px}
+footer{text-align: center;color: #111}
+/*main*/
+.main{background:#fafafa;}
+#intro{width: 80%;margin:0 auto;padding-top: 30px;overflow: auto;}
+.left{background:#103e94;width: 100px;height: 480px;border-radius: 20px;position: fixed;top:130px;left: 15%}
+.right{float:right;width: 80%}
+.toolkit{width: 100%;}
+.toolkit li{height: 80px;list-style: none}
+.toolkit img{width: 50px;height: 50px;margin-left: 25px;margin-top:15px}
+.history_intro{
+	line-height: 35px;
+    text-indent: 2em;
+    margin-bottom: 20px
+}
+.content-title{height: 30px;width: 97%;color:#fff;background-color:#103e94;line-height: 30px;padding-left: 10px}
+.content{padding-top: 20px;margin-bottom: 20px;line-height: 35px;height: 200px}
+.content img{border:2px solid #103e94;}
+.comment{position: fixed;top:130px;left: 5%}
+.comment li{list-style: none;width: 120px;color:#fff;background-color:#103e94;border-radius: 10px;height: 25px;text-align: center;position: fixed;display: none}
+.comment li:nth-child(1){
+top:160px;
+}
+.comment li:nth-child(2){
+top:240px;
+}
+.comment li:nth-child(3){
+top:320px;
+}
+.comment li:nth-child(4){
+top:400px;
+}
+.comment li:nth-child(5){
+top:480px;
+}
+.comment li:nth-child(6){
+top:560px;
+}
