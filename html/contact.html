@@ -19,50 +19,166 @@
 		<div id="intro">
 			<div>
 				<ul class="small">
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li style="float: right;margin-right: 0px;"></li>
+					<li><img src="../image/img1.jpg" alt="" class="smallImg" id="img1"></li>
+					<li><img src="../image/img2.jpg" alt="" class="smallImg" id="img2"></li>
+					<li><img src="../image/img3.jpg" alt="" class="smallImg" id="img3"></li>
+					<li><img src="../image/img4.jpg" alt="" class="smallImg" id="img4"></li>
+					<li><img src="../image/img5.jpg" alt="" class="smallImg" id="img5"></li>
+					<li style="float: right;margin-right: 0px;"><img src="../image/img6.jpg" alt="" class="smallImg" id="img6"></li>
 				</ul>
 			</div>
-			<table class="lists" border="4">
+			<!-- <table class="lists" border="4">
 				<tr>
 					<th style="width: 20%;background-color: #103e94;color:#fff;height: 30px;line-height: 30px;text-align: center;font-weight: bold">Name</th><th style="width: 79%;background-color: #103e94;color:#fff;height: 30px;line-height: 30px;text-align: center;font-weight: bold">Contact Details</th>
 				</tr>
 				<tr class="details">
+					<td class="bold">Lin Gang New City police station</td>
 					<td></td>
+				</tr>
+				<tr class="details">
+					<td class="bold">Shanghai No. 6 People's Hospital</td>
+					<td></td>
+				</tr>
+				<tr class="details">
+					<td class="bold">Shanghai Home Business Hotel</td>
+					<td></td>
+				</tr>
+				<tr class="details">
+					<td class="bold">China Construction Bank (Lingang branch)</td>
+					<td></td>
+				</tr>
+				<tr class="details">
+					<td class="bold">Bank of China (Lingang branch)</td>
+					<td></td>
+				</tr>
+				<tr class="details">
+					<td class="bold"></td>
 					<td></td>
 				</tr>
 				<tr class="details">
 					<td></td>
 					<td></td>
 				</tr>
-				<tr class="details">
-					<td></td>
-					<td></td>
-				</tr>
-				<tr class="details">
-					<td></td>
-					<td></td>
-				</tr>
-				<tr class="details">
-					<td></td>
-					<td></td>
-				</tr>
-				<tr class="details">
-					<td></td>
-					<td></td>
-				</tr>
-				<tr class="details">
-					<td></td>
-					<td></td>
-				</tr>
-			</table>
+			</table> -->
+			<div class="content" id="content1">
+				<img src="../image/img1.jpg" alt="" class="largeImg">
+				<div>
+					Lin Gang New City police station
+				</div>
+				<div style="margin-top: 10px;font-weight:bold;">Tel:021-68283110<br>
+					Add: West Huan Hu Road No.99, , Lin Gang New Town, Shanghai
+				</div>
+			</div>
+			<div class="content" id="content2" style="display: none">
+				<img src="../image/img2.jpg" alt="" class="largeImg">
+				<div>
+					Shanghai No. 6 People's Hospital
+				</div>
+				<div style="margin-top: 10px;font-weight:bold;">Tel:021-64369181<br>
+					Add: West Huan Hu Road and Gu Zong Road intersection, Lin Gang New Town
+
+				</div>
+			</div>
+			<div class="content" id="content3" style="display: none">
+				<img src="../image/img3.jpg" alt="" class="largeImg">
+				<div>
+					Howard Johnson Plaza Lingang Shanghai
+				</div>
+				<div style="margin-top: 10px;font-weight:bold;">Tel:021-38288888<br>Add: Shanghai Lingang New City Di Shui Lake shop
+				</div>
+			</div>
+			<div class="content" id="content4" style="display: none">
+				<img src="../image/img7.jpg" alt="" class="largeImg">
+				<div>
+					China Construction Bank (Lingang branch)
+				</div>
+				<div style="margin-top: 10px;font-weight:bold;">Tel: 021-58070022<br>
+					Add:B-3, No. 555 Xinyuan South Road, Lingang New Town, Shanghai
+				</div>
+			</div>
+			<div class="content" id="content5" style="display: none">
+				<img src="../image/img8.jpg" alt="" class="largeImg">
+				<div>
+					Bank of China (Lingang branch)
+				</div>
+				<div style="margin-top: 10px;font-weight:bold;">Add:1704, Hong Kong Road, Shanghai
+				</div>
+			</div>
+			<div class="content" id="content6" style="display: none">
+				<img src="../image/img9.jpg" alt="" class="largeImg">
+				<div>
+					Industrial &amp; Commercial Bank of China (Shanghai Lingang New Town branch)
+				</div>
+				<div style="margin-top: 10px;font-weight:bold;">Tel:021-38072025<br>
+					Add:No. 333, West Road, Shanghai
+				</div>
+			</div>
 		</div>
 	</div>
 	<footer>
-			<p class="copyright">Copyright &copy; 2017 Phoebe in SHOU &amp; UTAS</p>
-		</footer>
+		<p class="copyright">Copyright &copy; 2017 Phoebe in SHOU &amp; UTAS</p>
+	</footer>
+	<script>
+		var img1=document.getElementById('img1');
+		var img2=document.getElementById('img2');
+		var img3=document.getElementById('img3');
+		var img4=document.getElementById('img4');
+		var img5=document.getElementById('img5');
+		var img6=document.getElementById('img6');
+		var content1=document.getElementById('content1');
+		var content2=document.getElementById('content2');
+		var content3=document.getElementById('content3');
+		var content4=document.getElementById('content4');
+		var content5=document.getElementById('content5');
+		var content6=document.getElementById('content6');
+		img1.onclick=function(){
+			content1.style.display="block";
+			content2.style.display="none";
+			content3.style.display="none";
+			content4.style.display="none";
+			content5.style.display="none";
+			content6.style.display="none";
+		}
+		img2.onclick=function(){
+			content2.style.display="block";
+			content1.style.display="none";
+			content3.style.display="none";
+			content4.style.display="none";
+			content5.style.display="none";
+			content6.style.display="none";
+		}
+		img3.onclick=function(){
+			content3.style.display="block";
+			content2.style.display="none";
+			content1.style.display="none";
+			content4.style.display="none";
+			content5.style.display="none";
+			content6.style.display="none";
+		}
+		img4.onclick=function(){
+			content4.style.display="block";
+			content2.style.display="none";
+			content3.style.display="none";
+			content1.style.display="none";
+			content5.style.display="none";
+			content6.style.display="none";
+		}
+		img5.onclick=function(){
+			content5.style.display="block";
+			content2.style.display="none";
+			content3.style.display="none";
+			content4.style.display="none";
+			content1.style.display="none";
+			content6.style.display="none";
+		}
+		img6.onclick=function(){
+			content6.style.display="block";
+			content2.style.display="none";
+			content3.style.display="none";
+			content4.style.display="none";
+			content5.style.display="none";
+			content1.style.display="none";
+		}
+	</script>
 </body>
 </html>
